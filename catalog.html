@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dota 2 Store | Каталог</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo">DOTA<span>STORE</span></a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Главная</a></li>
+                    <li><a href="catalog.html" class="nav__link active">Каталог</a></li>
+                    <li><a href="contacts.html" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container page-content">
+        <h1 class="page-title">Каталог предметов</h1>
+
+        <section class="comparison">
+            <h2 class="section-title">Сравнение предметов</h2>
+            <div class="table-wrapper">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Предмет</th>
+                            <th>Герой</th>
+                            <th>Редкость / Тип</th>
+                            <th>Цена</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Inscribed Diabolic Aspect</td>
+                            <td>Chaos Knight</td>
+                            <td>Immortal (Mount)</td>
+                            <td>$ 50.00</td>
+                        </tr>
+                        <tr>
+                            <td>Inscribed Ceaseless Sorcery</td>
+                            <td>Warlock</td>
+                            <td>Mythical (Weapon)</td>
+                            <td>$ 65.00</td>
+                        </tr>
+                        <tr>
+                            <td>Demon Eater</td>
+                            <td>Shadow Fiend</td>
+                            <td>Arcana</td>
+                            <td>$ 20.00</td>
+                        </tr>
+                        <tr>
+                            <td>Pipe of Dezun</td>
+                            <td>Dazzle</td>
+                            <td>Legendary (Pipe)</td>
+                            <td>$ 140.00</td>
+                        </tr>
+                        <tr>
+                            <td>Dread Retribution</td>
+                            <td>Drow Ranger</td>
+                            <td>Arcana</td>
+                            <td>$ 200.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="catalog-grid">
+            <h2 class="section-title">Все товары</h2>
+            <div class="grid-container">
+                <article class="product-card">
+                    <div class="product-card__image">
+                        <img src="images/Inscribed Diabolic Aspect.png" alt="Inscribed Diabolic Aspect" class="product-card__img">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Inscribed Diabolic Aspect</h3>
+                        <div class="product-card__price">$ 50.00</div>
+                        <button class="btn btn--buy">Купить</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-card__image">
+                        <img src="images/Inscribed Ceaseless Sorcery.png" alt="Inscribed Ceaseless Sorcery" class="product-card__img">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Inscribed Ceaseless Sorcery</h3>
+                        <div class="product-card__price">$ 65.00</div>
+                        <button class="btn btn--buy">Купить</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-card__image">
+                        <img src="images/Demon Eater.png" alt="Demon Eater" class="product-card__img">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Demon Eater</h3>
+                        <div class="product-card__price">$ 20.00</div>
+                        <button class="btn btn--buy">Купить</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-card__image">
+                        <img src="images/Pipe of Dezun.png" alt="Pipe of Dezun" class="product-card__img">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Pipe of Dezun</h3>
+                        <div class="product-card__price">$ 140.00</div>
+                        <button class="btn btn--buy">Купить</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-card__image">
+                        <img src="images/Dread Retribution.png" alt="Dread Retribution" class="product-card__img">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Dread Retribution</h3>
+                        <div class="product-card__price">$ 200.00</div>
+                        <button class="btn btn--buy">Купить</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="feedback">
+            <h2 class="section-title">Не нашли нужный предмет?</h2>
+            <p>Оставьте заявку, и мы найдем его для вас!</p>
+            <form action="#" class="form">
+                <div class="form-group">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name" name="name" placeholder="Введите имя" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Какой предмет вы ищете?" required></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary">Отправить заявку</button>
+            </form>
+        </section>
+    </main>
+
+    <div class="fixed-btn" id="scrollTopBtn">Наверх</div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 DotaStore. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
