@@ -15,4 +15,4 @@
 ![alt text](image.png)
 
 ## Демо (GitHub Pages)
-[Ссылка на ваш сайт будет здесь]
+https://foidkiller993.github.io/kr3-dota-store/
